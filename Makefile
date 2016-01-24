@@ -1,5 +1,11 @@
 # Mengjuei Hsieh, University of California Irvine
 
+default:
+	@echo Please read the Makefile to decide which rule to run
+
+debug:
+	xcodebuild -configuration Debug
+
 all:
 	xcodebuild
 
